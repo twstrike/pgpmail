@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"code.google.com/p/go.crypto/openpgp"
-	"code.google.com/p/go.crypto/openpgp/armor"
-	pgperr "code.google.com/p/go.crypto/openpgp/errors"
+	"golang.org/x/crypto/openpgp"
+	"golang.org/x/crypto/openpgp/armor"
+	pgperr "golang.org/x/crypto/openpgp/errors"
 )
 
 const beginPgpMessage = "-----BEGIN PGP MESSAGE-----"

@@ -3,7 +3,7 @@ package pgpmail
 import (
 	"strings"
 
-	"code.google.com/p/go.crypto/openpgp"
+	"golang.org/x/crypto/openpgp"
 	gl "github.com/op/go-logging"
 )
 

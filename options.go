@@ -3,7 +3,7 @@ package pgpmail
 import (
 	"io"
 
-	"code.google.com/p/go.crypto/openpgp/packet"
+	"golang.org/x/crypto/openpgp/packet"
 )
 
 // encryptToSelf enables also encrypting every email message to the public key of the sender

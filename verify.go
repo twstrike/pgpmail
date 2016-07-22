@@ -7,11 +7,11 @@ import (
 	"io"
 	"mime"
 
-	"code.google.com/p/go.crypto/openpgp"
-	"code.google.com/p/go.crypto/openpgp/armor"
-	"code.google.com/p/go.crypto/openpgp/clearsign"
-	pgperr "code.google.com/p/go.crypto/openpgp/errors"
-	"code.google.com/p/go.crypto/openpgp/packet"
+	"golang.org/x/crypto/openpgp"
+	"golang.org/x/crypto/openpgp/armor"
+	"golang.org/x/crypto/openpgp/clearsign"
+	pgperr "golang.org/x/crypto/openpgp/errors"
+	"golang.org/x/crypto/openpgp/packet"
 )
 
 const (

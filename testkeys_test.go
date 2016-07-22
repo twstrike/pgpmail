@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"code.google.com/p/go.crypto/openpgp"
-	"code.google.com/p/go.crypto/openpgp/packet"
+	"golang.org/x/crypto/openpgp"
+	"golang.org/x/crypto/openpgp/packet"
 )
 
 var testKeys KeySource
